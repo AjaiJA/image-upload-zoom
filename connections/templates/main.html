@@ -1,0 +1,8 @@
+<form action="/add-image/" method="post" enctype="multipart/form-data">
+    <h3 class="text-center" style="line-height:80px;">File Upload</h3>
+    {% csrf_token %}
+    <div class="input-group mb-3">
+        <input type="file" name="add-image-file" class="form-control" id="inputGroupFile02">
+        <button class="input-group-text" type="submit">Upload</button>
+    </div>
+</form>
