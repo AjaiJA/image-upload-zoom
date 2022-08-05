@@ -25,6 +25,13 @@ body{
 .image-view-zoom:hover{
     transform: scale(1.1);
 }
+.popup-click-img{ 
+    cursor:zoom-in;
+    transition:all 0.3s ease-in-out;
+}
+.popup-click-img:hover{
+    transform: scale(1.2);
+}
 @media (max-width: 1048px) {
   .image-list-section { grid-template-columns: repeat(2, 1fr); }
 }
